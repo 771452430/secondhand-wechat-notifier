@@ -27,7 +27,7 @@ dev = [
 ]
 
 [project.scripts]
-notifier = "notifier.cli:main"
+wechat-notifier = "notifier.cli:main"
 
 [tool.setuptools.packages.find]
 include = ["notifier*"]

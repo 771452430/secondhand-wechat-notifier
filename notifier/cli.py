@@ -24,7 +24,7 @@ def main(argv: list[str] | None = None) -> int:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="notifier")
+    parser = argparse.ArgumentParser(prog="wechat-notifier")
     sub = parser.add_subparsers(required=True)
 
     init = sub.add_parser("init-config")
